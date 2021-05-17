@@ -4,7 +4,9 @@ import "./Header.css"
 export default function index() {
     return (
         <header className = "header">
-            Michael Cervantes
+            <div className = "my-name">
+                Michael Cervantes
+            </div>
         </header>
     )
 }
