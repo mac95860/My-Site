@@ -23,3 +23,30 @@
     font-weight: 500;
     font-size: larger;
 }
+
+.center-content {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-content-main{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.center-content-large {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.center-content-medium {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 17.4px;
+}

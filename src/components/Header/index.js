@@ -7,6 +7,12 @@ export default function index() {
             <div className = "my-name">
                 Michael Cervantes
             </div>
+            <div className = "center-content">
+                <h1 className = "center-content-main">
+                    <span className = "center-content-large">Michael Cervantes</span>
+                    <span className = "center-content-medium">Full Stack Developer</span>
+                </h1>
+            </div>
         </header>
     )
 }
