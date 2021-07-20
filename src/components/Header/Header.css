@@ -29,6 +29,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .center-content-main{
@@ -40,6 +41,7 @@
     flex-direction: column;
     justify-content: center;
     backface-visibility: hidden;
+    margin-bottom: 60px;
 }
 
 .center-content-large {
@@ -90,4 +92,25 @@
         opacity: 1;
         transform: translate(0);
     }
+}
+
+.btn:link, 
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn:active{
+    transform: translate(-1px);
+}
+
+.btn-white{
+    background-color: #b09347;
+    color: #fff;   
 }

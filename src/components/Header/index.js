@@ -12,6 +12,7 @@ export default function index() {
                     <span className = "center-content-large">Michael Cervantes</span>
                     <span className = "center-content-medium">Full Stack Developer</span>
                 </h1>
+                <a href = "#" class = "btn btn-white">See My Work</a>
             </div>
         </header>
     )
