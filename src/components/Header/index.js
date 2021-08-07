@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Header.css"
+//import "./Header.css"
 
 export default function index() {
     return (
@@ -12,7 +12,7 @@ export default function index() {
                     <span className = "center-content-large">Michael Cervantes</span>
                     <span className = "center-content-medium">Full Stack Developer</span>
                 </h1>
-                <a href = "#" class = "btn btn-white btn-animated">See My Work</a>
+                <a href = "#" class = "btn btn-gold btn-animated">See My Work</a>
             </div>
         </header>
     )
